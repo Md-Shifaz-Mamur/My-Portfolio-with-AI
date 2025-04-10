@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: white;
+    }
+
+    .top-bar {
+      background-color: #fff;
+      padding: 5px 15px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .bookmarks {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .bookmarks a {
+      text-decoration: none;
+      color: #555;
+    }
+
+    .top-icons {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .google-logo {
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .google-logo img {
+      width: 250px;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .search-input {
+      width: 600px;
+      padding: 12px 20px;
+      border: 1px solid #dfe1e5;
+      border-radius: 25px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    }
+
+    .search-input input {
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .search-input .icon {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .shortcuts {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .shortcut {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 80px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .shortcut-icon {
+      width: 50px;
+      height: 50px;
+      background: #e0e0e0;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .footer-links {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+    }
+
+    .footer-links button {
+      padding: 6px 12px;
+      border-radius: 4px;
+      background-color: #eee;
+      border: none;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="bookmarks">
+      <a href="https://www.semrush.com/projects/">Projects | Semrush</a>
+      <a href="https://web.facebook.com/">Medilogics Facebook</a>
+      <a href="https://id.tableau.com/">Tableau</a>
+      <a href="https://elearning.tableau.com/">Tableau eLearning</a>
+      <a href="https://prod-useast-b.online.tableau.com/#/site/shifazmamurtab/home">Home - Tableau</a>
+      <a href="https://askyourpdf.com/file-upload">AskYourPDF</a>
+      <a href="https://www.prepostseo.com/image-to-text">Image to Text</a>
+      <a href="http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html">SPSS Files</a>
+      <a href="https://acrobat.adobe.com/?x_api_client_id=bookmark&x_api_client_location=Acrobat">Adobe Acrobat</a>
+    </div>
+    <div class="top-icons">
+      <img src="./images/me.jpg" alt="Profile" width="30"/>
+    </div>
+  </div>
+
+  <div class="google-logo">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google"/>
+  </div>
+
+  <div class="search-box">
+    <div class="search-input">
+      <input type="text" placeholder="Search Google or type a URL" />
+      <span class="icon">🔍</span>
+      <span class="icon">🎤</span>
+    </div>
+  </div>
+
+  <div class="shortcuts">
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/1.png" width="30" /></div>
+      <span>Tripadvisor</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/2.png" width="30" /></div>
+      <span>Islamic Scien...</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/3.png" width="30" /></div>
+      <span>Drive</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/4.png" width="30" /></div>
+      <span>Analytics</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/5.png" width="30" /></div>
+      <span>YouTube</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/6.png" width="30" /></div>
+      <span>Pay</span>
+    </a>
+    <a href="#" class="shortcut">
+      <div class="shortcut-icon"><img src="./images/7.png" width="30" /></div>
+      <span>Bayyinah TV</span>
+    </a>
+  </div>
+
+  <div class="footer-links">
+    <button>Customize Chrome</button>
+  </div>
+
+</body>
+</html>
